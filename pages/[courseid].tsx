@@ -30,7 +30,7 @@ export default function Home({ content, code, title }: Props) {
   return (<>
     <Streak />
     <Header />
-    <div className="relative mx-8 my-12 flex gap-8 z-0">
+    <div className="relative px-8 my-12 flex gap-8 z-0">
       <Sidenav />
       <main className="flex-grow flex flex-col items-center max-w-full">
 
